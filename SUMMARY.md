@@ -4,8 +4,8 @@
 
 ## Instalación de (LAMP) Apache, MySQL y PHP
 
-* [Instalación de Apache](instalacion-de-lamp-apache-mysql-y-php/instalacion-de-apache.md)
-* [Instalación de MySQL](instalacion-de-lamp-apache-mysql-y-php/instalacion-de-mysql.md)
+* [Instalación de Apache](instalacion-de-apache-mysql-y-php/instalacion-de-apache.md)
+* [Instalación de MySQL](instalacion-de-mysql.md)
 * [Instalación de PHP](instalacion-de-lamp-apache-mysql-y-php/instalacion-de-php.md)
 
 ## Creación de Virtual Host
