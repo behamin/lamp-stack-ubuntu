@@ -1,10 +1,10 @@
 ---
 description: >-
-  Manual para la instalación de una pila Linux, Apache, MySQL y PHP (LAMP),
-  configuración y crea en Ubuntu 20.04
+  Manual para la instalación de recursos, configuraciones y manejo de virtual
+  host en entornos  de  Linux (Ubuntu 20.04)
 ---
 
-# Instalación LAMP en un servidor Ubuntu 20.04
+# Apuntes para un servidor Ubuntu 20.04
 
 ## Índice
 
@@ -14,6 +14,6 @@ description: >-
 * Instalación de MySQL
 * Instalación de PHP
 
-**Creación de Virtual Host**
+**Instalación y configuración de MongoDB**
 
-****
+**Creación de Virtual Host**

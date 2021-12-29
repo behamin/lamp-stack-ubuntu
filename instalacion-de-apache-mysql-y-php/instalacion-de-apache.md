@@ -71,3 +71,29 @@ Verá la página web predeterminada de Apache para Ubuntu 20.04, que se encuentr
 ![Página predeterminada de Apache para Ubuntu 20.04](https://assets.digitalocean.com/articles/how-to-install-lamp-ubuntu-18/small\_apache\_default\_1804.png)
 
 Si ve esta página, su servidor web estará correctamente instalado y el acceso a él será posible a través de su firewall.
+
+{% hint style="info" %}
+#### Cómo averiguar la dirección IP pública de su servidor <a href="#como-averiguar-la-direccion-ip-publica-de-su-servidor" id="como-averiguar-la-direccion-ip-publica-de-su-servidor"></a>
+{% endhint %}
+
+Si no conoce la dirección IP pública de su servidor, hay varias formas de encontrarla. Por lo general, es la dirección que utiliza para establecer conexión con su servidor a través de SSH.
+
+Existen varias formas de hacerlo desde la línea de comandos. Primero, podría usar las herramientas de `iproute2` para obtener su dirección IP escribiendo esto:
+
+```bash
+ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+```
+
+&#x20;
+
+Esto nos brindará dos o tres líneas. Todas estas direcciones son correctas, pero su computadora puede usar una de ellas. Por ello, no dude en probarlas todas.
+
+Un método alternativo consiste en usar la utilidad `curl` para contactar a una parte externa a fin de que le indique _su_ evaluación del servidor. Esto se hace solicitando a un servidor específico su dirección IP:
+
+```bash
+curl http://icanhazip.com
+```
+
+&#x20;
+
+Independientemente del método que utilice para obtener su dirección IP, escríbala en la barra de direcciones de su navegador web para ver la página predeterminada de Apache.
