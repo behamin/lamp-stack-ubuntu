@@ -43,7 +43,9 @@ Puede verificar el cambio con lo siguiente:
 sudo ufw status
 ```
 
-
+{% hint style="info" %}
+Si al lanzar este comando la respuesta es "Status: inactive" puede solucionarlo con el comando "sudo ufw enable"
+{% endhint %}
 
 ```
 OutputStatus: active
