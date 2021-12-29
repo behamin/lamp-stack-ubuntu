@@ -11,7 +11,7 @@ description: >-
 **Instalación de Apache, MySQL y PHP**
 
 * [Instalación de Apache](instalacion-de-apache-mysql-y-php/instalacion-de-apache.md)
-* Instalación de MySQL
+* [Instalación de MySQL](instalacion-de-mysql.md)
 * Instalación de PHP
 
 **Instalación y configuración de MongoDB**
