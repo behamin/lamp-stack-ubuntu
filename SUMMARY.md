@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Apuntes para un servidor Ubuntu 20.04](README.md)
+* [Apuntes para un servidor Ubuntu 20.04 - VirtualBox](README.md)
 
 ## Instalación de (LAMP) Apache, MySQL y PHP
 
