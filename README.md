@@ -25,4 +25,4 @@ description: >-
 **Paquetes de uso común**
 
 * [Instalación de Composer](paquetes-de-uso-comun/instalacion-de-composer.md)
-* Instalación de NodeJs y NPM
+* [Instalación de NodeJs y NPM](paquetes-de-uso-comun/instalacion-de-nodejs-y-npm.md)
