@@ -4,7 +4,7 @@ description: >-
   host en entornos  de  Linux (Ubuntu 20.04)
 ---
 
-# Apuntes para un servidor Ubuntu 20.04
+# Apuntes para un servidor Ubuntu 20.04 - VirtualBox
 
 ## Índice
 
@@ -19,4 +19,4 @@ description: >-
 **Creación de Virtual Host**
 
 * [Carpeta y configuración del host](creacion-de-virtual-host/carpeta-y-configuracion-del-host.md)
-* Creando un archivo y probando el host
+* [Probar el procesamiento de PHP](creacion-de-virtual-host/probar-el-procesamiento-de-php.md)

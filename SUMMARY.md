@@ -11,4 +11,4 @@
 ## Creación de Virtual Host
 
 * [Carpeta y configuración del host](creacion-de-virtual-host/carpeta-y-configuracion-del-host.md)
-* [Creando un archivo y probando el host](creacion-de-virtual-host/creando-un-archivo-y-probando-el-host.md)
+* [Probar el procesamiento de PHP](creacion-de-virtual-host/probar-el-procesamiento-de-php.md)

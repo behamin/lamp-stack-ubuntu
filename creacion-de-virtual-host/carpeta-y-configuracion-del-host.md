@@ -69,3 +69,23 @@ Añadimos nuestro host:
 {% hint style="info" %}
 Si su entorno de trabajo es Windows necesitará configurar el host en el archivo de host de windows ubicado en la siguiente dirección: C:\WINDOWS\system32\drivers\etc\host
 {% endhint %}
+
+Cree un archivo `index.html` en esa ubicación para poder probar que el host virtual funcione según lo previsto:
+
+```bash
+nano /var/www/folder_name/index.html
+```
+
+Incluya el siguiente contenido en este archivo:
+
+```bash
+<h1>It works!</h1>
+
+<p>This is the landing page of <strong>folder_name</strong>.</p>
+```
+
+Listo! Si todo ha ido bien podrá acceder a su nuevo virtual host:
+
+```
+http://folder_name.test:host_port(Puerto anfitrión)
+```
