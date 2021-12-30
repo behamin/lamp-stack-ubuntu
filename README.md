@@ -24,4 +24,4 @@ description: >-
 
 **Paquetes de uso común**
 
-* Instalación de Composer
+* [Instalación de Composer](paquetes-de-uso-comun/instalacion-de-composer.md)
