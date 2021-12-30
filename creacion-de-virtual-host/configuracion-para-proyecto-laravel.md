@@ -28,3 +28,5 @@ Recuerda que el nombre del archivo .conf tiene que ser el mismo que el de la car
     </Directory>
 </VirtualHost>
 ```
+
+¡Listo! Para el resto de pasos puedes consultar el apartado [Carpeta y configuración del host](carpeta-y-configuracion-del-host.md)
