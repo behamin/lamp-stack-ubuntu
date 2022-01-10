@@ -20,3 +20,8 @@
 * [Instalación de Composer](paquetes-de-uso-comun/instalacion-de-composer.md)
 * [Instalación de NodeJs y NPM](paquetes-de-uso-comun/instalacion-de-nodejs-y-npm.md)
 * [Instalación de phpMyAdmin](paquetes-de-uso-comun/instalacion-de-phpmyadmin.md)
+
+## Extensiones PHP
+
+* [LDAP](extensiones-php/ldap.md)
+* [OCI8](extensiones-php/oci8.md)
