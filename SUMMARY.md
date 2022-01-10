@@ -15,6 +15,10 @@
 * [Configuración para proyecto Laravel](creacion-de-virtual-host/configuracion-para-proyecto-laravel.md)
 * [Configuración SLL](creacion-de-virtual-host/configuracion-sll.md)
 
+## MongoDB
+
+* [Instalación](mongodb/instalacion.md)
+
 ## Paquetes de uso común
 
 * [Instalación de Composer](paquetes-de-uso-comun/instalacion-de-composer.md)
