@@ -18,6 +18,8 @@
 ## MongoDB
 
 * [Instalación](mongodb/instalacion.md)
+* [Crear usuario administrador](mongodb/crear-usuario-administrador.md)
+* [Crear base de datos y colecciones](mongodb/crear-base-de-datos-y-colecciones.md)
 
 ## Paquetes de uso común
 

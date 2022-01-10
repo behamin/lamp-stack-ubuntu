@@ -23,6 +23,12 @@ description: >-
 * [Configuración para proyecto Laravel](creacion-de-virtual-host/configuracion-para-proyecto-laravel.md)
 * [C](creacion-de-virtual-host/configuracion-sll.md)[onfiguración SLL](creacion-de-virtual-host/configuracion-sll.md)
 
+**MongoDB**
+
+* [Instalación](mongodb/instalacion.md)
+* [Crear usuario administrador](mongodb/crear-usuario-administrador.md)
+* [Crear base de datos y colecciones](mongodb/crear-base-de-datos-y-colecciones.md)
+
 **Paquetes de uso común**
 
 * [Instalación de Composer](paquetes-de-uso-comun/instalacion-de-composer.md)
