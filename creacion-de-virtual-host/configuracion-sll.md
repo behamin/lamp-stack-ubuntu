@@ -63,7 +63,7 @@ Copia y pega esta estructura, edítala con los datos y garda los cambios.
 Habilitamos y reiniciamos apache
 
 ```
-sudo a2ensite default-ssl
+sudo a2enmod ssl
 sudo service apache2 restart
 ```
 
