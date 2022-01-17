@@ -51,7 +51,7 @@ sudo apache2ctl configtest
 Vuelva a cargar Apache para que estos cambios surtan efecto:
 
 ```bash
-sudo systemctl reload apache2
+sudo systemctl reload apache2 o sudo service apache2 restart
 ```
 
 Por último configuramos nuestro archivo host virtual local :&#x20;
