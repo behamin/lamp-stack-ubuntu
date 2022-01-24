@@ -27,4 +27,4 @@ supervisord -v
 4.1.0
 ```
 
-### Cnfiguración
+### Configuración

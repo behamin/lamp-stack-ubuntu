@@ -34,8 +34,9 @@ description: >-
 * [Instalación de Composer](paquetes/instalacion-de-composer.md)
 * [Instalación de NodeJs y NPM](paquetes/instalacion-de-nodejs-y-npm.md)
 * [Instalación de phpMyAdmin](paquetes/instalacion-de-phpmyadmin.md)
+* [Supervisor](paquetes/supervisor.md)
+* [LDAP](ldap.md)
 
 **Extensiones PHP**
 
-* [LDAP](ldap.md)
 * [OCI8](extensiones-php/oci8.md)
