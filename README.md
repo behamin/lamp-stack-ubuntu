@@ -36,6 +36,7 @@ description: >-
 * [Instalación de phpMyAdmin](paquetes/instalacion-de-phpmyadmin.md)
 * [Supervisor](paquetes/supervisor.md)
 * [LDAP](paquetes/ldap.md)
+* [Virtualbox guest additions](paquetes/virtualbox-guest-additions.md)
 
 **Extensiones PHP**
 
