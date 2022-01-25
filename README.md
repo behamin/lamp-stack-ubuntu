@@ -35,7 +35,7 @@ description: >-
 * [Instalación de NodeJs y NPM](paquetes/instalacion-de-nodejs-y-npm.md)
 * [Instalación de phpMyAdmin](paquetes/instalacion-de-phpmyadmin.md)
 * [Supervisor](paquetes/supervisor.md)
-* [LDAP](ldap.md)
+* [LDAP](paquetes/ldap.md)
 
 **Extensiones PHP**
 
