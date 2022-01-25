@@ -2,6 +2,10 @@
 
 * [Apuntes para un servidor Ubuntu 20.04 - VirtualBox](README.md)
 
+## VirtualBox
+
+* [Compartir carpetas](virtualbox/compartir-carpetas.md)
+
 ## Instalación de (LAMP) Apache, MySQL y PHP
 
 * [Instalación de Apache](instalacion-de-apache-mysql-y-php/instalacion-de-apache.md)
