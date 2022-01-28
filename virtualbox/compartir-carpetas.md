@@ -37,3 +37,11 @@ sudo usermod -a -G vboxsf $(whoami)
 ```
 
 Para finalizar, reinicia el servidor.
+
+{% hint style="info" %}
+Si necesitas dar permisos púbicos a la carpeta para usar esta como v-host usa el siguiente comando.
+{% endhint %}
+
+```
+sudo mount -t vboxsf main_folder path_to_share_folder -o uid=1000,gid=1000
+```
