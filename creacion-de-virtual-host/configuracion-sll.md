@@ -64,6 +64,7 @@ Habilitamos y reiniciamos apache
 
 ```
 sudo a2enmod ssl
+sudo a2enmod rewrite
 sudo service apache2 restart
 ```
 

@@ -54,3 +54,28 @@ En el último paso de la instalación te preguntará: **`if you're compiling wit
 ```
 instantclient,/opt/oracle/instantclient_12_1
 ```
+
+Necesitamos decirle a PHP que cargue la extensión OCI8:
+
+```
+sudo su -
+echo "extension=oci8.so" >> /etc/php/7.4/apache2/php.ini
+```
+
+Actualiza el servidor.
+
+```
+sudo shutdown -r now
+```
+
+Para terminar el proceso, habilitamos la extensión:
+
+```
+cd /etc/php/7.4/mods-available/
+sudo touch oci.ini
+sudo nano oci.ini
+extension = oci8.so
+cd /etc/php/7.4/apache2/conf.d
+sudo ln -s /etc/php/7.4/mods-available/oci.ini 20-oci.ini
+sudo shutdown -r now
+```

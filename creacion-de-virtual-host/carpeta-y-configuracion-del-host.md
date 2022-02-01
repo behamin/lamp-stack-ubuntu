@@ -40,6 +40,7 @@ Ahora, puede usar `a2ensite` para habilitar el nuevo host virtual:
 
 ```bash
 sudo a2ensite folder_name.conf
+sudo a2enmod rewrite
 ```
 
 Para asegurarse de que su archivo de configuración no contenga errores de sintaxis, ejecute lo siguiente:
