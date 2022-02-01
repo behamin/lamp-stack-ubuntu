@@ -33,6 +33,7 @@ sudo rm instantclient-*
 Ahora creamos los enlaces simbólicos a los paquetes
 
 ```
+cd instantclient_12_1
 sudo ln -s libclntsh.so.12.1 libclntsh.so
 sudo ln -s libocci.so.12.1 libocci.so
 sudo su -
