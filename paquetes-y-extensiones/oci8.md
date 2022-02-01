@@ -29,3 +29,28 @@ Eliminamos los archivos .zip:
 ```
 sudo rm instantclient-*
 ```
+
+Ahora creamos los enlaces simbólicos a los paquetes
+
+```
+sudo ln -s libclntsh.so.12.1 libclntsh.so
+sudo ln -s libocci.so.12.1 libocci.so
+sudo su -
+echo /opt/oracle/instantclient_12_1 > /etc/ld.so.conf.d/oracle.conf
+ldconfig
+```
+
+Dado que será necesario, instalamos lo siguiente:
+
+```
+sudo apt-get install php-dev php-pear build-essential libaio1
+sudo pecl channel-update pecl.php.net
+sudo pecl install oci8 (php 8)
+sudo pecl install oci8-2.2.0  (php 7.)
+```
+
+En el último paso de la instalación te preguntará: **`if you're compiling with Oracle Instant Client [autodetect]:`** escribe lo siguiente:
+
+```
+instantclient,/opt/oracle/instantclient_12_1
+```
