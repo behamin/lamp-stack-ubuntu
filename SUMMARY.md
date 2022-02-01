@@ -25,15 +25,13 @@
 * [Crear usuario administrador](mongodb/crear-usuario-administrador.md)
 * [Crear base de datos y colecciones](mongodb/crear-base-de-datos-y-colecciones.md)
 
-## Paquetes
+## Paquetes y Extensiones
 
-* [Instalación de Composer](paquetes/instalacion-de-composer.md)
-* [Instalación de NodeJs y NPM](paquetes/instalacion-de-nodejs-y-npm.md)
-* [Instalación de phpMyAdmin](paquetes/instalacion-de-phpmyadmin.md)
-* [Supervisor](paquetes/supervisor.md)
-* [LDAP](paquetes/ldap.md)
-* [Virtualbox guest additions](paquetes/virtualbox-guest-additions.md)
-
-## Extensiones PHP
-
-* [OCI8](extensiones-php/oci8.md)
+* [Instalación de Composer](paquetes-y-extensiones/instalacion-de-composer.md)
+* [Instalación de NodeJs y NPM](paquetes-y-extensiones/instalacion-de-nodejs-y-npm.md)
+* [Instalación de phpMyAdmin](paquetes-y-extensiones/instalacion-de-phpmyadmin.md)
+* [Supervisor](paquetes-y-extensiones/supervisor.md)
+* [LDAP](paquetes-y-extensiones/ldap.md)
+* [Virtualbox guest additions](paquetes-y-extensiones/virtualbox-guest-additions.md)
+* [OCI8](paquetes-y-extensiones/oci8.md)
+* [Bcmath](paquetes-y-extensiones/bcmath.md)

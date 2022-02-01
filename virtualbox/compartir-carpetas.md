@@ -29,7 +29,7 @@ Una vez definidas todas las opciones presionamos el botón Aceptar.
 Agregar el usuario del sistema operativo huésped al grupo vboxsf
 
 {% hint style="info" %}
-Necesias  el paquete [Vitualbox guest additions](../paquetes/virtualbox-guest-additions.md) instalado.
+Necesias  el paquete [Vitualbox guest additions](../paquetes-y-extensiones/virtualbox-guest-additions.md) instalado.
 {% endhint %}
 
 ```
