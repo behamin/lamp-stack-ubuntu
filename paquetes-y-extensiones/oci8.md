@@ -75,7 +75,7 @@ cd /etc/php/7.4/mods-available/
 sudo touch oci.ini
 sudo nano oci.ini
 extension = oci8.so
-cd /etc/php/7.4/apache2/conf.d
+cd /etc/php/7.4/cli/conf.d
 sudo ln -s /etc/php/7.4/mods-available/oci.ini 20-oci.ini
 sudo shutdown -r now
 ```
