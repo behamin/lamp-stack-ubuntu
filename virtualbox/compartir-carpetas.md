@@ -6,7 +6,7 @@ Seleccionaremos la máquina virtual en la que queremos compartir carpetas y arch
 
 A continuación, en el panel de la izquierda clicaremos en la opción Carpetas Compartidas. Acto seguido en el panel de la derecha presionaremos el botón de Agregar nueva carpeta compartida.
 
-![](<../.gitbook/assets/imagen (1).png>)
+![](<../.gitbook/assets/imagen (1) (1).png>)
 
 #### Definir las opciones de montaje de las carpetas compartidas
 
