@@ -19,3 +19,23 @@ sudo add-apt-repository ppa:ondrej/php
 ```
 
 #### Instalar PHP 8.0 en Apache
+
+Tras añadir el PPA en nuestro equipo, debería producirse **la actualización de paquetes disponibles desde los repositorios**.
+
+Si estás ejecutando un servidor web Apache, **se puede proceder a instalar PHP 8.0 con el módulo Apache**.&#x20;
+
+```
+sudo apt install php8.0 libapache2-mod-php8.0
+```
+
+Una vez finalizada la instalación, tendremos que **reiniciar el servidor web** [**Apache**](https://ubunlog.com/netbeans-12-1-lanzada-con-algunas-mejoras/) para habilitar el módulo.
+
+```
+sudo systemctl restart apache2
+```
+
+Llegados a este punto, ya podemos **confirmar la versión de PHP predeterminada en el servidor**:
+
+```
+php -v
+```
