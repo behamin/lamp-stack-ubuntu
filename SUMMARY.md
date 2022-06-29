@@ -11,6 +11,7 @@
 * [Instalación de Apache](instalacion-de-apache-mysql-y-php/instalacion-de-apache.md)
 * [Instalación de MySQL](instalacion-de-mysql.md)
 * [Instalación de PHP](instalacion-de-lamp-apache-mysql-y-php/instalacion-de-php.md)
+* [Instalación de PHP 8](instalacion-de-lamp-apache-mysql-y-php/instalacion-de-php-8.md)
 
 ## Creación de Virtual Host
 
