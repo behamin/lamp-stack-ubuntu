@@ -30,6 +30,12 @@ Revocar permisos
 REVOKE PERMISSION_TYPE ON database_name.table_name FROM ‘user’@‘localhost’;
 ```
 
+Crear nueva base de datos
+
+```
+CREATE DATABASE gesforcon CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+```
+
 Posicionarte en una base de datos
 
 ```
