@@ -9,6 +9,15 @@ sudo chgrp -R www-data /var/www/folder_name/storage bootstrap/cache
 sudo chmod -R ug+rwx /var/www/folder_name/storage bootstrap/cache
 ```
 
+Si hecho esto, continuas con problemas de permisos
+
+```
+sudo getenforce
+sudo chcon -R -t httpd_sys_rw_content_t storage
+sudo chcon -R -t httpd_sys_rw_content_t bootstrap/cache
+sudo systemctl reload apache2 o sudo service apache2 restart
+```
+
 Creamos el **`virtual host`** y lo configuramos de la siguiente manera:
 
 {% hint style="info" %}
